@@ -1,0 +1,24 @@
+{
+  "name": "typescript-algo",
+  "description": "A repository for All algorithms implemented in Typescript (for educational purposes only)",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test-watch": "vitest",
+    "style": "bunx prettier . --write",
+    "check-style": "bunx prettier . --check",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@vitest/coverage-v8": "^2.0.3",
+    "@vitest/ui": "^2.0.3",
+    "husky": "^9.0.11",
+    "prettier": "^3.3.3",
+    "vitest": "^2.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
